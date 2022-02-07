@@ -17,8 +17,9 @@ public class Pessoa {
 	private Long id;
 	private String nome;
 	
-	@DateTimeFormat(style = "yyyy-MM-dd")
-	private LocalDate dataNascismento;
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
+	private LocalDate dataNascimento;
+	
 	private String cpf;
 	private String email;
 	private String telefone;
@@ -43,11 +44,11 @@ public class Pessoa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public LocalDate getDataNascismento() {
-		return dataNascismento;
+	public LocalDate getDataNascimento() {
+		return dataNascimento;
 	}
-	public void setDataNascismento(LocalDate dataNascismento) {
-		this.dataNascismento = dataNascismento;
+	public void setDataNascimento(LocalDate dataNascimento) {
+		this.dataNascimento = dataNascimento;
 	}
 	public String getCpf() {
 		return cpf;

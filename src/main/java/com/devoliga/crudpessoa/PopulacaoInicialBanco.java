@@ -21,10 +21,10 @@ public class PopulacaoInicialBanco implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
 		Pessoa p1 = new Pessoa("Joao");
-		p1.setDataNascismento(LocalDate.of(1990, 4, 1));
+		p1.setDataNascimento(LocalDate.of(1990, 4, 1));
 		p1.setEmail("joao@gmail.com");
 		Pessoa p2 = new Pessoa("Maria");
-		p2.setDataNascismento(LocalDate.of(1990, 1, 1));
+		p2.setDataNascimento(LocalDate.of(1990, 1, 1));
 		p2.setEmail("maria@gmail.com");
 		
 		repo.save(p1);
