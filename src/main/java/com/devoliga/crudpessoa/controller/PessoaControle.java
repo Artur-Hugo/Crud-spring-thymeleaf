@@ -1,4 +1,4 @@
-package com.devoliga.crudpessoa.controle;
+package com.devoliga.crudpessoa.controller;
 
 import java.util.Optional;
 
