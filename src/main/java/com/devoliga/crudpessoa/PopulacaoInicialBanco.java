@@ -25,7 +25,7 @@ public class PopulacaoInicialBanco implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		// TODO Auto-generated method stub
-		Pessoa p1 = new Pessoa("Joao");
+	/*	Pessoa p1 = new Pessoa("Joao");
 		p1.setDataNascimento(LocalDate.of(1990, 4, 1));
 		p1.setEmail("joao@gmail.com");
 		Pessoa p2 = new Pessoa("Maria");
@@ -53,7 +53,7 @@ public class PopulacaoInicialBanco implements CommandLineRunner {
         countryRepository.save(new Country("Jordon", "Amman"));
         countryRepository.save(new Country("Curacao", "Willemstad"));
         countryRepository.save(new Country("Sao Tome Principe", "Sao Tome"));
-	}
+	*/} 
 
 	
 }
